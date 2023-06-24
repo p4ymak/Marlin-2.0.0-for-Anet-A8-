@@ -860,7 +860,7 @@
  * or (with LCD_BED_LEVELING) the LCD controller.
  */
 #define PROBE_MANUALLY
-//#define MANUAL_PROBE_START_Z 0.2
+#define MANUAL_PROBE_START_Z 0.2
 
 /**
  * A Fix-Mounted Probe either doesn't deploy or needs manual deployment.
@@ -1604,7 +1604,7 @@
  *
  * :{ 'en':'English', 'an':'Aragonese', 'bg':'Bulgarian', 'ca':'Catalan', 'cz':'Czech', 'da':'Danish', 'de':'German', 'el':'Greek', 'el_gr':'Greek (Greece)', 'es':'Spanish', 'eu':'Basque-Euskera', 'fi':'Finnish', 'fr':'French', 'gl':'Galician', 'hr':'Croatian', 'it':'Italian', 'jp_kana':'Japanese', 'ko_KR':'Korean (South Korea)', 'nl':'Dutch', 'pl':'Polish', 'pt':'Portuguese', 'pt_br':'Portuguese (Brazilian)', 'ru':'Russian', 'sk':'Slovak', 'tr':'Turkish', 'uk':'Ukrainian', 'vi':'Vietnamese', 'zh_CN':'Chinese (Simplified)', 'zh_TW':'Chinese (Traditional)', 'test':'TEST' }
  */
-#define LCD_LANGUAGE de
+#define LCD_LANGUAGE en
 
 /**
  * LCD Character Set
@@ -1802,7 +1802,7 @@
 //
 // ANET and Tronxy 20x4 Controller
 //
-//#define ZONESTAR_LCD              // Requires ADC_KEYPAD_PIN to be assigned to an analog pin.
+#define ZONESTAR_LCD              // Requires ADC_KEYPAD_PIN to be assigned to an analog pin.
                                   // This LCD is known to be susceptible to electrical interference
                                   // which scrambles the display.  Pressing any button clears it up.
                                   // This is a LCD2004 display with 5 analog buttons.
@@ -1897,7 +1897,7 @@
 //
 // Note: Details on connecting to the Anet V1.0 controller are in the file pins_ANET_10.h
 //
-#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
+// #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 #define ST7920_DELAY_1 DELAY_NS(0)
 #define ST7920_DELAY_2 DELAY_NS(400)
 #define ST7920_DELAY_3 DELAY_NS(0)
