@@ -2,6 +2,7 @@
  Ready to Flash AnetA8 Firmware open in PlatformIo and Select Sanguino as Board and Flash
  
  As Display it is selected 5 Button 20 x 4 Row Display for the 128x64 pixel Display with Rorary Encoder please change in the Configuration.h
+
  at line 1900
 ```c
 //#define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
@@ -10,6 +11,7 @@
 ```c
 #define REPRAP_DISCOUNT_FULL_GRAPHIC_SMART_CONTROLLER
 ```
+
 at line 1805
 
 ```c
